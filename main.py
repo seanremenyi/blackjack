@@ -48,6 +48,7 @@ def compare(user_score, computer_score):
         return "You lose 😤"
 
 def game():
+    print(art.logo)
     game_over = False
     user_hand = []
     comp_hand = []
